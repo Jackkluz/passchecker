@@ -1,6 +1,6 @@
 # Passchecker
 A program to check the security of personal passwords.
-Passwords are encrypted with a SHA1 hash and then only the first 5 values of the hash are sent to the API. The results are filtered to match the exact hash on the backend to avoid leaking the full hash of all the passwords you use to the API.
+Passwords are encrypted with a SHA1 hash and then only the first 5 values of the hash are sent to the API. The results are filtered to match the exact hash locally to avoid leaking the full hash of all the passwords you use to the API.
 
 HOW-TO:
 - Install requests using: pip install requests     (or read the documentation)
