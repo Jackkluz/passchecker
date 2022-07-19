@@ -1,5 +1,6 @@
 # Passchecker
 A program to check the security of personal passwords.
+The program queries the https://haveibeenpwned.com/ database of passwords from known data breaches. This program notifies you if the passwords you are using could be susceptible to brute force attacks. 
 Passwords are encrypted with a SHA1 hash and then only the first 5 values of the hash are sent to the API. The results are filtered to match the exact hash locally to avoid leaking the full hash of all the passwords you use to the API.
 
 HOW-TO:
